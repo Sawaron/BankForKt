@@ -23,8 +23,7 @@ jobs:
           java-version: '21'
           cache: maven
 
-      # Тесты используют H2 (в памяти) и заглушку Redis, поэтому
-      # PostgreSQL и Redis в CI поднимать не нужно.
+
       - name: Run tests
         run: mvn -B test
 

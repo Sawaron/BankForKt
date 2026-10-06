@@ -44,9 +44,7 @@ public class BankAccountService {
     }
 
     private void validateAmount(BigDecimal amount) {
-        if (amount == null || amount.compareTo(BigDecimal.ZERO) <= 0) {
-            throw new BankTerminalException("Сумма должна быть положительной!");
-        }
+        amount == null
     }
 
     public void deposit(String cardNumber, String password, BigDecimal amount) {
