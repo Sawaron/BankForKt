@@ -28,7 +28,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * СХОДЯЩИЕСЯ тесты: контроллер + сервис + репозиторий + H2 работают вместе.
- * Заглушка осталась только для Redis (внешняя система).
  */
 @SpringBootTest
 @AutoConfigureMockMvc

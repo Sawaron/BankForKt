@@ -23,7 +23,6 @@ import static org.mockito.Mockito.*;
 
 /**
  * ВОСХОДЯЩИЕ тесты: реальный сервис + реальный репозиторий + H2. Контроллера нет,
- * тест сам вызывает сервис (драйвер). Заглушка: только Redis (внешняя система).
  */
 @DataJpaTest
 @Import(BankAccountService.class)

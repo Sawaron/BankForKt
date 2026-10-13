@@ -32,7 +32,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * НИСХОДЯЩИЕ тесты: реальный контроллер + реальный сервис.
- * Заглушки: BankAccountRepository и StringRedisTemplate (Redis). Базы данных нет.
  */
 @WebMvcTest(BankController.class)
 @Import(BankAccountService.class)
