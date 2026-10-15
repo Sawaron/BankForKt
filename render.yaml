@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-java-app
+    env: docker
+    plan: free
+    repo: https://github.com/Sawaron/BankForKt
+    branch: main
